@@ -8,7 +8,7 @@ This is a website for a UK based band who perform regularly at weddings. It will
 
 ### What does it do?
 
-The website will allow users to complete forms and ocntact the band regarding bookings and will allow users to access media files from the band.
+The website will allow users to complete a form and contact the band regarding bookings and will allow users to access media files from the band.
 
 ### How does it work?
 
@@ -17,7 +17,7 @@ This site will use AngularJS as it main framework, HTML5, CSS and will be styled
 ## Features
 
 ### Existing Features
-	- None yet!
+	- Image carousel
 
 ### Features to Implement
 	- User Based Features
@@ -33,9 +33,9 @@ This site will use AngularJS as it main framework, HTML5, CSS and will be styled
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
-    - We use **npm** to help manage some of the dependencies in our application
+    - **npm** is used to help manage some of the dependencies in the application
 - [bower](https://bower.io/)
-    - **Bower** is used to manage the installation of our libraries and frameworks
+    - **Bower** is used to manage the installation of the libraries and frameworks
 
 ## Contributing
 
