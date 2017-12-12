@@ -6,15 +6,38 @@
              <h3>Weddings</h3>
              <p>The Monkees are available for wedding hire. A full range of wedding band services are offered and a tailor made wedding band package can be made for your individual needs. Along with all of your favourite hits from The Monkees, we can also learn additional songs of your choice, so you can have your first dance to your perfect song. Please contact us using the form below to make an enquiry.</p>
        </div>
-       <div class="col-sm-4">
-             <h3>Parties<h3>
-             <p>The Monkees are also available to be hired for parties and private functions. A 30, 60 or 90 minute gig can be arranged </p>
+       <div class="col-sm-5">
+             <h3>Events<h3>
+             <p>The Monkees are also available to be hired for other events such as festivals, parties and private functions. A 30, 60 or 90 minute gig can be arranged and we will play all of your favourite The Monkees hits along with other pop hits from the 60s and 70s. Please contact us using the form below to make an enquiry.</p>
        </div>
-       <div class="col-sm-4">
-             ...
-       </div>
-    </div>
-    <div class="row">
-         ...
+      
     </div>
 </div>
+
+
+<form name="contact">
+  <div class="container">
+  <h3>Contact Form</h3>
+  <div class="row">
+    <div class="col-sm-6">
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="First Name & Surname">
+  </div>
+  <div class="col-sm-4">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Email Address">
+  </div>
+  <div class="col-sm-4">
+    <label for="partytype">Enquiry Type</label>
+      <input type="radio" name="partytype" value="wedding" checked> Wedding<br>
+      <input type="radio" name="partytype" value="event" checked> Event<br>
+      <input type="radio" name="partytype" value="other" checked> Other<br>
+  </div>
+  <div class="col-sm-4">
+    <label for="details">Details</label>
+    <textarea id="details" name="details" placeholder="Please tell us about your request and provide any additional contact information." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </div>
+  </div>
+  </div>
+</form>
