@@ -36,8 +36,12 @@
   <div class="col-sm-4">
     <label for="details">Details</label>
     <textarea id="details" name="details" placeholder="Please tell us about your request and provide any additional contact information." style="height:200px"></textarea>
-    <input type="submit" value="Submit">
+  <p>Submit your request here.</p>
+  <button onclick="getElementById('submit').innerHTML=Date()">Submit</button>
+  <p id="submit">Your request was submitted on...</p>
+    
   </div>
   </div>
   </div>
 </form>
+
